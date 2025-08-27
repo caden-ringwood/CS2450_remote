@@ -21,6 +21,9 @@ while not correct:
     elif answer == "no":
         guessed_ages.add(guessed_age)
         print("Let me try again.")
+        if len(guessed_ages) == 16:  # 30 - 15 + 1 = 16 possible ages
+            print("I've guessed all possible ages! Are you sure your age is between 15 and 30?")
+            break
     elif answer == "exit":
         print("Thanks for playing! Goodbye!")
         break
