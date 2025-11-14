@@ -1,0 +1,3 @@
+[submodule "cs2450-youface-fall2025-cadence"]
+	path = cs2450-youface-fall2025-cadence
+	url = git@github.com:JeffCompasClassrooms/cs2450-youface-fall2025-cadence.git
